@@ -1,1 +1,1 @@
-include ':app', ':github01'
+include ':app', ':github01', ':lib'
