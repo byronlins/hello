@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.byron.github01'
+//group='com.byron.github01'
 
 android {
     compileSdkVersion 28
@@ -27,4 +27,6 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.7.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+
+    implementation 'com.github.byronlins:hello:v1.0'
 }

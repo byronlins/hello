@@ -22,4 +22,7 @@ public class ImageLoaderHelper {
         Glide.with(c).load( path).into(imageView);
     }
 
+    public static void load2 (Context c, String path, ImageView imageView){
+        Glide.with(c).load( path).into(imageView);
+    }
 }
